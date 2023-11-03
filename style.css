@@ -1,0 +1,192 @@
+*{
+  box-sizing: border-box;
+  direction: ltr;
+}
+
+body{
+  font-size: 16px;
+  background-color: teal;
+  margin: 0px;
+}
+
+.phone{
+  width: 100%;
+  min-height: 100vh;
+  margin: 0px auto;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+}
+
+a{
+  text-decoration: none;
+}
+
+i{
+  font-size: 1.2em;
+}
+
+/* footer */
+
+.footer{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0px;
+  position: fixed;
+  width: 400px;
+  padding: 5px;
+}
+
+.footer img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* head */
+
+.hed{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.hed div{
+  display: flex;
+  align-items: center;
+}
+
+.hed div span{
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* profile */
+
+.profile{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile .image{
+  position: relative;
+}
+
+.profile .image .pic{
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 50%;
+
+}
+
+.profile .image i{
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.profile div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile div .n{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.profile div .t{
+  color: rgb(101, 101, 101);
+}
+
+/* info */
+
+.inf{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.inf a{
+  color: rgb(0, 137, 137);
+}
+
+/* edit prifile */
+
+.edit{
+  border: solid 1px;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  color: rgb(100, 100, 100);
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+/* hilights */
+
+.hi{
+  display: flex;
+  border-bottom: rgb(121, 121, 121) solid 2px;
+}
+
+.hi .story{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.hi .story .border{
+  height: 60px;
+  width: 60px;
+  border: solid 1px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+}
+
+.hi .story .border img{
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+}
+
+/* nav */
+
+.nav{
+display: flex;
+}
+
+.nav div{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav .border{
+  border-bottom: solid 3px;
+}
+
+/* posts */
+
+.posts{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 3px;
+  margin: 3px;
+}
+
+.posts img{
+  width: 100%;
+  height: 133px;
+}
