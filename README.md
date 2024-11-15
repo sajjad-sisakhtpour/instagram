@@ -89,4 +89,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Live Demo
 
-For a live demonstration, open the project on a local web server or view the layout by opening the `index.html` file directly in your browser.
+For a live demonstration, open the project on a local web server or view the layout by opening the [here](https://sajjad-sisakhtpour.github.io/Flappy_bird/) file directly in your browser.
